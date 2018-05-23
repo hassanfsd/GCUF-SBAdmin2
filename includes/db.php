@@ -1,7 +1,7 @@
 <?php 
  
 global $conn;
-$conn = oci_pconnect('gc_dsa', 'gc_dsa', 'localhost/orcl');
+$conn = oci_pconnect('', '', 'localhost/orcl');
 
 if (!$conn) {
     $e = oci_error();
